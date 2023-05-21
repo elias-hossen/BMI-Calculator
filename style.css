@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(67, 225, 186, 0.574);
+  font-family: sans-serif;
+  user-select: none;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f3f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.age {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  padding: 20px 40px;
+  border-radius: 4px;
+  background: #fff;
+}
+.age p {
+  font-weight: 700;
+}
+.age input {
+  padding: 7px 0;
+  border: none;
+  border-bottom: 2px solid rgb(69, 222, 27);
+  outline: none;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: 900;
+}
+.redio-btn {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+}
+.redio-btn span {
+  display: flex;
+}
+.redio-btn p {
+  margin: 0 5px;
+}
+.redio-btn span input {
+  width: 15px;
+  cursor: pointer;
+}
+.inputs-area {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 20px 10px;
+  background: #fff;
+  border-radius: 4px;
+}
+.height {
+  margin: 0 10px;
+}
+.inputs-area input {
+  width: 150px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(69, 222, 27);
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 0;
+  font-weight: 900;
+}
+.calculate-btn {
+  border: none;
+  padding: 10px 110px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 20px;
+  background: rgb(55, 230, 160);
+  cursor: pointer;
+}
+.calculate-btn:hover {
+  background: rgb(1, 215, 130);
+}
+.calculate-btn:active {
+  transform: translate(-1px, 1px);
+}
+.calculated {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  margin: 10px 0;
+  padding: 3px;
+  align-items: center;
+}
+.calculated p {
+  font-size: 15px;
+}
+.calculated .calculate-bmi {
+  width: 80px;
+  background: rgb(238, 60, 60);
+  color: #fff;
+  padding: 5px;
+  border-radius: 30px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.bmi-condition {
+  font-weight: 700;
+}
+.hidden {
+  display: none;
+}
